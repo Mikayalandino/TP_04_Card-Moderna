@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: #62BFE8; */
+    font-family: 'Andada', serif;
+}
+
+.container{
+    background-color: #62BFE8;
+    height: 450px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    border-radius: 30px;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 20px 0px 20px 20px;
+}
+
+
+.card-img{
+    background-image: url(./photo.jpeg);
+    display: inline-block;
+    text-align: center;
+}
+
+.card-price{
+    color:  #FCFDFD;
+    background-color: #E4747C;
+    width: 90px;
+    height: 90px;
+    padding: 25px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-popular{
+    width: 100px;
+    margin: 0 0 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: lightseagreen;
+    color: #FCFDFD;
+    border-radius: 5px;
+    padding: 10px; 
+
+}
+
+.card-body{
+    text-align: justify;
+    
+}
+
+.subtitle, .subtitle2, .days{
+    color: #D8D3D1;
+}
+
+.subtitle2{
+
+}
+
+.days{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 15px 50px 0;
+    padding: 10px 25px;
+    /* background-color: rgb(184, 179, 179); */
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+hr{
+    border: 1px solid rgba(128, 128, 128, 0.425);
+}
+
+
+
+.card-icons{
+    display: flex;
+    align-items: center;
+    color: #D8D3D1;
+    display: block;
+    margin: 25px;
+}
+
