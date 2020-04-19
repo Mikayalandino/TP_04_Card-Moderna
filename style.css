@@ -1,95 +1,104 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    /* background-color: #62BFE8; */
-    font-family: 'Andada', serif;
-}
-
-.container{
+body {
     background-color: #62BFE8;
-    height: 450px;
-    width: 350px;
+    font-family: 'Andada', serif;
+} 
+
+.container {
+    border: 1px solid black;
+    width: 300px;
+    height: 460px;
+    background-color: #FCFDFD;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    margin: 30px;
-    border-radius: 30px;
-    justify-content: space-between;
     text-align: justify;
-    padding: 20px 0px 20px 20px;
+    margin-left: 40%;
+    margin-top: 10%;
 }
 
-
-.card-img{
-    background-image: url(./photo.jpeg);
-    display: inline-block;
-    text-align: center;
+.container__top {
+    height: 200px;
+    background-image: url(./DCLBlog_SGS_5587_Trunk-Cay-at-Trunk-Bay-St-John-USVI.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
-.card-price{
-    color:  #FCFDFD;
-    background-color: #E4747C;
-    width: 90px;
-    height: 90px;
-    padding: 25px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: column;    
-    align-items: center;
-    justify-content: center;
-
-}
-
-.card-popular{
-    width: 100px;
-    margin: 0 0 15px 25px;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: lightseagreen;
+.container__top__price {
     color: #FCFDFD;
+    background-color: #E4747C ;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-left: 15px;
+    margin-bottom: 80px;
+    margin-top: 15px;
+}
+
+.container__top__popular {
+    color: #FCFDFD;
+    background-color: #62BFE8;
+    width: 70px;
+    height: 25px;
+    font-size: 12px;
     border-radius: 5px;
-    padding: 10px; 
-
-}
-
-.card-body{
-    text-align: justify;
-    
-}
-
-.subtitle, .subtitle2, .days{
-    color: #D8D3D1;
-}
-
-.subtitle2{
-
-}
-
-.days{
-    display: flex;
-    justify-content: space-around;
-    margin: 15px 15px 50px 0;
-    padding: 10px 25px;
-    /* background-color: rgb(184, 179, 179); */
-    color: white;
     text-align: center;
+    margin-left: 15px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  
+}
+
+.container__bottom {
+    margin: 20px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+}
+
+.container__bottom__title {
+    color: #504D37;
+    font-size: 21px;
+}
+
+.container__bottom__info {
+    color: rgb(161, 154, 150);
+    font-size: 15px;
+}
+
+.container__bottom__days {
+    height: 44px;
+    width: 44px;
+    color: #FCFDFD;
+    background-color: #D8D3D1;
+    display: inline-block;
     border-radius: 5px;
+    text-align: center;
+    padding-top: 2px;
 }
 
-hr{
-    border: 1px solid rgba(128, 128, 128, 0.425);
+hr {
+    width: 265px;
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 
-
-
-.card-icons{
+.container__footer {
     display: flex;
-    align-items: center;
-    color: #D8D3D1;
-    display: block;
-    margin: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 25px;
+    color: #D8D3D1 ;
 }
 
+.far {
+    margin-left: 20px;
+}
